@@ -20,7 +20,9 @@ const User = mongoose.model('User', userSchema);
 
 
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin:["https://wpm-zddk.onrender.com"]
+}));
 app.use(express.json());
 app.use(bodyParser.json());
 app.use(cookieParser());
