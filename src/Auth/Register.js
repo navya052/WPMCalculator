@@ -38,12 +38,19 @@ function Register() {
     });
     
 
+
+    setTimeout(() => {  
+
+    const data = response.json();
+    console.log(data);
+
     if (response.ok) {
       navigate('/Login', { replace: true })
     } else {
       
       setexists(false)
     }
+  }, 5000);
 
   };
 
