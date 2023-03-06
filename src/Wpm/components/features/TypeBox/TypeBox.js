@@ -580,18 +580,18 @@ const TypeBox = ({
               >
                 <UndoIcon />
               </IconButton>
-              <IconButton
-                aria-label="restart"
-                color="secondary"
-                size="medium"
-                onClick={() => {
-                  reset(countDownConstant, false);
-                }}
-              >
+//               <IconButton
+//                 aria-label="restart"
+//                 color="secondary"
+//                 size="medium"
+//                 onClick={() => {
+//                   reset(countDownConstant, false);
+//                 }}
+//               >
 
-                <RestartAltIcon onClick={handleClick} />
+//                 <RestartAltIcon onClick={handleClick} />
 
-              </IconButton>
+//               </IconButton>
               {menuEnabled && (
                 <>
                   <IconButton
