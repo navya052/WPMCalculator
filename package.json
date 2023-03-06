@@ -27,7 +27,7 @@
     "react-dom": "^18.2.0",
     "react-particles": "^2.9.3",
     "react-router-dom": "^6.8.1",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "react-select": "^5.7.0",
     "react-social-icons": "^5.15.0",
     "react-tsparticles": "^2.9.3",
