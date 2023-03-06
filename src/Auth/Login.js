@@ -37,12 +37,11 @@ const Login =() => {
       },
       body: JSON.stringify({ email, password }),
     });
-    const data = await response.json();
-    console.log(data);
+    
 
     if (response.ok) {
  
-      navigate('/wpm',{state:{name:data.name}})
+      navigate('/wpm',{state:{name:"mukthaa"}})
       
       
     }else{
