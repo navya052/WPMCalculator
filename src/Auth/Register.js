@@ -39,9 +39,9 @@ function Register() {
     
 
 
-    setTimeout(() => {  
+  
 
-    const data = response.json();
+    const data = await response.json();
     console.log(data);
 
     if (response.ok) {
@@ -50,7 +50,7 @@ function Register() {
       
       setexists(false)
     }
-  }, 5000);
+ 
 
   };
 
