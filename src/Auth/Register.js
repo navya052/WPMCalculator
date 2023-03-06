@@ -36,8 +36,7 @@ function Register() {
       },
       body: JSON.stringify({ name, email, password }),
     });
-    const data = await response.json();
-    console.log(data);
+    
 
     if (response.ok) {
       navigate('/Login', { replace: true })
