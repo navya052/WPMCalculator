@@ -39,14 +39,20 @@ const Login =() => {
     });
     
 
+   setTimeout(() => { 
+  
+    const data = response.json();
+    console.log(data);
+
     if (response.ok) {
  
-      navigate('/wpm',{state:{name:"mukthaa"}})
+      navigate('/wpm',{state:{name:data.name}})
       
       
     }else{
       setInvali(true)
     }
+     }, 5000);
     
   };
 
