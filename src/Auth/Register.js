@@ -29,7 +29,7 @@ function Register() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch('/api/users', {
+    const response = await fetch('https://wpm-zddk-api.onrender.com/api/users', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
